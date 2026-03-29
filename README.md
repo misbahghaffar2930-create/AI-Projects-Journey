@@ -8,14 +8,14 @@ mages.search.yahoo.com/search/images;_ylt=AwrFG0654sdp7DgBDdOJzbkF;_ylu=Y29sbwNi
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=misbahghaffar2930&label=Profile%20views&color=0e75b6&style=flat" alt="misbahghaffar2930" /> </p>
 - 📫 How to reach me **misbahghaffar2930@gmail.com**
 - # Hi there, I'm Misbah Ghaffar! 👋
-![Uploading image.png…]()
+
 
 ### 🎓 AI Engineering Student | 🤖 Aspiring AI Engineer | 🇵🇰 Pakistan
 
 I'm passionate about **Artificial Intelligence** and building intelligent solutions that automate and solve real-world problems. Currently focusing on Python-driven AI projects and growing my skills every day!
 
 ---
-
+![Uploading image.png…]()
 ### 🚀 About Me
 
 - 🌱 **Currently learning:** AI, Machine Learning, and Deep Learning.
