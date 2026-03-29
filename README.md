@@ -1,5 +1,20 @@
 
----
+# The Core of AI Engineering: Decision Making Automation
+class AIEngineer:
+    def __init__(self, name):
+        self.name = name
+        self.skills = ["Neural Networks", "System Prompting", "MLOps"]
+
+    def process_task(self, query, domain_knowledge):
+        # AI Engineer's job: Filtering noise and ensuring accuracy
+        if query in domain_knowledge:
+            return f"AI Decision: Delivering {domain_knowledge[query]} instantly."
+        else:
+            return "Guardrail Triggered: I can only help with specific queries!"
+
+# Real-world importance: Turning manual work into Automated Intelligence
+student = AIEngineer("AI Student")
+print(student.process_task("Biryani Price", {"Biryani Price": "500 Rs"}))---
 
 ## 🌐 Connect with Me
 Let's build the future of AI together! You can find me on these platforms:
