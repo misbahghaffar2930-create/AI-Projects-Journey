@@ -22,6 +22,22 @@ mages.search.yahoo.com/search/images;_ylt=AwrFG0654sdp7DgBDdOJzbkF;_ylu=Y29sbwNi
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=misbahghaffar2930&" alt="misbahghaffar2930" /></p># AI-Projects-Journey
 "Repository for AI course assignments and project tasks, focused on Python and Artificial Intelligence."
+## 🛠️ Skills & Tools
+
+### 🐍 Programming & Core AI
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-005A9C?style=for-the-badge&logo=ai&logoColor=white)
+![System Guardrails](https://img.shields.io/badge/AI_Guardrails-E34F26?style=for-the-badge&logo=shield&logoColor=white)
+
+### 🌐 Frameworks & APIs
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Groq AI](https://img.shields.io/badge/Groq_AI-FF6F00?style=for-the-badge&logo=lightning&logoColor=white)
+![LLM Integration](https://img.shields.io/badge/LLM_Integration-4B0082?style=for-the-badge&logo=openai&logoColor=white)
+
+### ⚙️ Tools & DevOps
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ## 🌐 Connect with Me
 Let's build the future of AI together! You can find me on these platforms:
 
