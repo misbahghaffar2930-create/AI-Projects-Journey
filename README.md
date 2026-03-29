@@ -74,6 +74,51 @@ Let's build the future of AI together! You can find me on these platforms:
 > **Tech Stack:** `Python` | `Flask` | `Groq AI`  
 > **Core Function:** Managed Menu, Bookings, and Domain-Specific Guardrails.
 
+## 🤖 Projects
+
+### 🍽️ Karachi Darbar Chatbot (Task No. 1)
+Custom AI assistant designed for a restaurant to handle menus, bookings, and customer queries with strict domain constraints.
+
+**Key Features:**
+*   **Menu Inquiry:** Real-time pricing for Biryani (500 Rs), Nihari (400 Rs), etc.
+*   **Booking System:** Directs users to the reservation line (021-1234567).
+*   **Strict Scope Control:** Uses system prompting to prevent off-topic conversations.
+*   **Automated Guardrails:** Custom fallback for non-restaurant queries.
+
+**Rules Applied:**
+- *Primary Rule:* Only talk about Karachi Darbar.
+- *Fallback:* "I can only help you with Karachi Darbar related queries!"
+- ---
+
+## 👗 Project 02: StyleZone PK - Fashion Bot
+An e-commerce AI assistant for an online clothing brand based in Lahore, specializing in inventory management and shipping logistics.
+
+### 📋 Store Profile
+| Attribute | Information |
+| :--- | :--- |
+| **Store Name** | StyleZone PK |
+| **Location** | Lahore, Pakistan |
+| **Delivery Time** | 3-5 Working Days |
+| **Order Support** | WhatsApp: 0300-1234567 |
+
+### 🛍️ Inventory & Pricing
+The bot is programmed to provide instant quotes for the following collection:
+*   **Lawn Suit:** 2500 Rs
+*   **Linen Shirt:** 1800 Rs
+*   **Jeans:** 3000 Rs
+*   **Kurta:** 1500 Rs
+
+### 🛡️ Operational Guardrails (Strict Rule)
+This bot is strictly constrained to **StyleZone PK** operations. 
+*   **Input:** Any query outside clothing, prices, or delivery.
+*   **Output Strategy:** Refusal of non-related topics to ensure brand safety.
+
+### 🛠️ Core AI Skills Applied
+*   **E-commerce Logic:** Mapping products to specific price points.
+*   **Shipping Calculation:** Communicating static delivery timelines.
+*   **Lead Generation:** Funneling customers directly to WhatsApp for conversions.
+
+---
 ---
 
 
