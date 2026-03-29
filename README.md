@@ -127,3 +127,53 @@ This bot is strictly constrained to **StyleZone PK** operations.
 
 ---
 ---
+# 🍛 Project 01: Karachi Darbar Assistant
+
+<table width="100%">
+  <tr>
+    <td bgcolor="#800000" align="center" style="padding: 20px; border-radius: 15px 15px 0 0;">
+      <img src="https://img.icons8.com/emoji/48/000000/curry-rice.png" align="left" />
+      <h2 style="color: #FFD700; margin: 0;">Karachi Darbar</h2>
+      <p style="color: #FFFFFF; margin: 5px 0;">Saddar, Karachi • 12 PM — 12 AM • 🟢 Online</p>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#1A1A1A" style="padding: 15px;">
+      <p align="center">
+        <img src="https://img.shields.io/badge/🍽️_Menu-333333?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/🗓️_Booking-333333?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/⏰_Timing-333333?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/📍_Location-333333?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/💰_Prices-333333?style=for-the-badge" />
+      </p>
+      <br>
+      <blockquote style="background-color: #2D2D2D; border-left: 5px solid #800000; border-radius: 10px; padding: 15px; color: #FFFFFF;">
+        <b>Bot:</b> Assalam o Alaikum! 🍛 Karachi Darbar mein khush aamdeed! Main aapki kya madad kar sakta hoon?
+      </blockquote>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🛠️ Technical Implementation
+* **LLM Model:** Groq AI (Llama-3 Integration)
+* **Backend:** Python / Flask
+* **Safety Guardrails:** Strict Domain Control enabled.
+
+### 🍱 Digital Menu & Pricing
+| Dish | Price |
+| :--- | :--- |
+| **Biryani** | 500 Rs |
+| **Nihari** | 400 Rs |
+| **Karahi** | 800 Rs |
+| **Naan** | 50 Rs |
+
+### 🛡️ Operational Rules
+If a customer asks anything unrelated to the restaurant:
+> **Response:** *"I can only help you with Karachi Darbar related queries!"*
+
+### 📞 Table Bookings
+Direct all reservation requests to: **021-1234567**
+
+---
