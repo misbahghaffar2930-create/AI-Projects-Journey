@@ -106,4 +106,21 @@ This AI is programmed with a **"Strict Domain Policy"**. If a user asks about po
 * **Information Architecture:** Organizing unstructured menu data for AI retrieval.
 
 ---
+## 📁 My Projects
 
+### 🍛 Karachi Darbar Restaurant Chatbot
+> **Tech Stack:** `Python` | `Flask` | `Groq AI`  
+> **Core Function:** Managed Menu, Bookings, and Domain-Specific Guardrails.
+
+---
+
+### 👗 StyleZone PK Chatbot
+> **Tech Stack:** `Python` | `Flask` | `Groq AI`  
+> **Core Function:** Automated Inventory Queries and Delivery Tracking for Clothing.
+
+---
+
+### 👩‍💻 About Me
+* **Role:** AI Engineering Student 🤖
+* **Main Skill:** Python (Backend & AI Logic) 🐍
+* **Focus:** Building Intelligent Systems and Prompt Engineering.
