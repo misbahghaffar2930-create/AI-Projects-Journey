@@ -44,11 +44,7 @@ I'm passionate about **Artificial Intelligence** and building intelligent soluti
 </p>
 
 ---
-
-### 📫 Connect with me:
-
-<p align="left">
-  <a href="mailto:misbahghaffar2930@gmail.com">
+@gmail.com">
 ---
 
 ## 🌐 Connect with Me
