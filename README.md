@@ -1,4 +1,5 @@
 
+<img width="1024" height="169" alt="image" src="https://github.com/user-attachments/assets/37a2a6f1-2d6f-4f20-9777-995cf3ce0682" />
 
 <h1 align="center">Hi 👋, I'm Misbah Ghaffar</h1>
 <h3 align="center">"Aspiring AI Engineer | Building intelligent solutions, one project at a time.</h3>
