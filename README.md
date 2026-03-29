@@ -1,4 +1,35 @@
-# 🤖 AI Engineering Portfolio | Karachi Darbar Project
+
+---
+
+## 👗 Project 02: StyleZone PK - Fashion Bot
+An e-commerce AI assistant for an online clothing brand based in Lahore, specializing in inventory management and shipping logistics.
+
+### 📋 Store Profile
+| Attribute | Information |
+| :--- | :--- |
+| **Store Name** | StyleZone PK |
+| **Location** | Lahore, Pakistan |
+| **Delivery Time** | 3-5 Working Days |
+| **Order Support** | WhatsApp: 0300-1234567 |
+
+### 🛍️ Inventory & Pricing
+The bot is programmed to provide instant quotes for the following collection:
+*   **Lawn Suit:** 2500 Rs
+*   **Linen Shirt:** 1800 Rs
+*   **Jeans:** 3000 Rs
+*   **Kurta:** 1500 Rs
+
+### 🛡️ Operational Guardrails (Strict Rule)
+This bot is strictly constrained to **StyleZone PK** operations. 
+*   **Input:** Any query outside clothing, prices, or delivery.
+*   **Output Strategy:** Refusal of non-related topics to ensure brand safety.
+
+### 🛠️ Core AI Skills Applied
+*   **E-commerce Logic:** Mapping products to specific price points.
+*   **Shipping Calculation:** Communicating static delivery timelines.
+*   **Lead Generation:** Funneling customers directly to WhatsApp for conversions.
+
+---# 🤖 AI Engineering Portfolio | Karachi Darbar Project
 
 Welcome to my AI Engineering showcase. This repository contains my functional AI implementations and chatbot logic.
 
