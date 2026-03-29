@@ -77,7 +77,17 @@ The bot is programmed to provide instant quotes for the following collection:
 ### 🛡️ Operational Guardrails (Strict Rule)
 This bot is strictly constrained to **StyleZone PK** operations. 
 *   **Input:** Any query outside clothing, prices, or delivery.
-*   **Output Strategy:** Refusal of non-related topics to ensure brand safety.
+*   **Output Strategy:** Refusal of non-related topics to ensure brand safety. ---
+
+## 🌱 Quick Overview
+
+*   **Learning:** Currently diving deep into **AI & Machine Learning** 🧠
+*   **Building:** AI-powered chatbots using **Groq AI & Flask** 🤖
+*   **Goal:** On a mission to become a **Professional AI Engineer** 🚀
+*   **Education:** Student at **Khawaja Fareed University of Engineering and IT** 🎓
+*   **Location:** Based in **Sahiwal, Pakistan** 📍
+
+---
 
 ### 🛠️ Core AI Skills Applied
 *   **E-commerce Logic:** Mapping products to specific price points.
