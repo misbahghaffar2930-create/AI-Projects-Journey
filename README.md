@@ -76,18 +76,24 @@ Let's build the future of AI together! You can find me on these platforms:
 
 ## 🤖 Projects
 
-### 🍽️ Karachi Darbar Chatbot (Task No. 1)
-Custom AI assistant designed for a restaurant to handle menus, bookings, and customer queries with strict domain constraints.
+## 📁 My Projects
 
-**Key Features:**
-*   **Menu Inquiry:** Real-time pricing for Biryani (500 Rs), Nihari (400 Rs), etc.
-*   **Booking System:** Directs users to the reservation line (021-1234567).
-*   **Strict Scope Control:** Uses system prompting to prevent off-topic conversations.
-*   **Automated Guardrails:** Custom fallback for non-restaurant queries.
+### 🍛 Karachi Darbar Restaurant Chatbot
+> **Tech Stack:** `Python` | `Flask` | `Groq AI`  
+> **Core Function:** Managed Menu, Bookings, and Domain-Specific Guardrails.
 
-**Rules Applied:**
-- *Primary Rule:* Only talk about Karachi Darbar.
-- *Fallback:* "I can only help you with Karachi Darbar related queries!"
+---
+
+### 👗 StyleZone PK Chatbot
+> **Tech Stack:** `Python` | `Flask` | `Groq AI`  
+> **Core Function:** Automated Inventory Queries and Delivery Tracking for Clothing.
+
+---
+
+### 👩‍💻 About Me
+* **Role:** AI Engineering Student 🤖
+* **Main Skill:** Python (Backend & AI Logic) 🐍
+* **Focus:** Building Intelligent Systems and Prompt Engineering.
 - ---
 
 ## 👗 Project 02: StyleZone PK - Fashion Bot
