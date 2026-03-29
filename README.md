@@ -37,10 +37,6 @@ This AI is programmed with a **"Strict Domain Policy"**. If a user asks about po
 
 ---
 
-## 🚀 How to Preview
-1. Click on the **Preview** tab at the top of this editor.
-2. You will see a clean, professional layout with tables and lists.
-3. Click **Commit changes...** to save it to your profile.
 <h1 align="center">Hi 👋, I'm Misbah Ghaffar</h1>
 <h3 align="center">"Aspiring AI Engineer | Building intelligent solutions, one project at a time.</h3>
 <img align="right"alt="coding"width="400"scr="https://user-
