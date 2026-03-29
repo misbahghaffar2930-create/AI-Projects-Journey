@@ -177,3 +177,52 @@ If a customer asks anything unrelated to the restaurant:
 Direct all reservation requests to: **021-1234567**
 
 ---
+# 👗 Project 02: StyleZone PK Assistant
+
+<table width="100%">
+  <tr>
+    <td align="center" style="background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); padding: 20px; border-radius: 15px 15px 0 0;">
+      <img src="https://img.icons8.com/emoji/48/000000/dress-emoji.png" align="left" />
+      <h2 style="color: #FFFFFF; margin: 0;">StyleZone PK</h2>
+      <p style="color: #E0E0E0; margin: 5px 0;">Lahore • Online Clothing Store • 🟢 Online</p>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#1E1E2E" style="padding: 15px;">
+      <p align="center">
+        <img src="https://img.shields.io/badge/👗_Products-3B3B4F?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/💰_Prices-3B3B4F?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/🚚_Delivery-3B3B4F?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/📦_Order-3B3B4F?style=for-the-badge" />
+        <img src="https://img.shields.io/badge/💬_WhatsApp-3B3B4F?style=for-the-badge" />
+      </p>
+      <br>
+      <div style="background-color: #2D2D44; border-left: 5px solid #6a11cb; border-radius: 10px; padding: 15px; color: #FFFFFF; margin: 10px 0;">
+        <b>StyleZone Bot:</b> Assalam o Alaikum! 👗 StyleZone PK mein khush aamdeed! Kya aap koi dress dhundh rahe hain? Main aapki madad kar sakta hoon! ✨
+      </div>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🛍️ Digital Catalog & Services
+* **Lawn Suit:** 2500 Rs
+* **Linen Shirt:** 1800 Rs
+* **Jeans:** 3000 Rs
+* **Kurta:** 1500 Rs
+
+### 🚚 Shipping Details
+* **Standard Delivery:** 3-5 working days.
+* **Location:** Operations based in Lahore, shipping nationwide.
+
+### 🛡️ Guardrails (Strict Rule)
+If a user asks about anything other than StyleZone PK clothing or orders:
+> **Response:** *"I can only help you with StyleZone PK related queries!"*
+
+### 🛠️ Technology Stack
+* **AI Engine:** Groq AI (Llama 3)
+* **Framework:** Flask (Python)
+* **Integration:** WhatsApp API for Order Support
+
+---
