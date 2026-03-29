@@ -1,26 +1,6 @@
 
 
-class AIEngineerStudent:
-    def __init__(self):
-        self.name = "Your Name"  # Yahan apna naam likhein
-        self.role = "AI Engineering Student"
-        self.location = "Pakistan"
-        self.mission = "Turning complex data into intelligent solutions"
 
-    def my_technical_stack(self):
-        return {
-            "Language": ["Python", "Markdown"],
-            "AI Skills": ["Prompt Engineering", "System Guardrails", "Chatbot Logic"],
-            "Tools": ["GitHub", "VS Code", "LLM APIs"]
-        }
-
-    def current_focus(self):
-        # Aaj kal main kya seekh rahi hoon
-        return "Building domain-specific AI assistants (like Karachi Darbar & StyleZone PK)"
-
-# --- Execution ---
-me = AIEngineerStudent()
-print(f"Hi! I'm a {me.role}. My core skill is {me.my_technical_stack()['Language'][0]}.")
 ## 🌐 Connect with Me
 Let's build the future of AI together! You can find me on these platforms:
 
