@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="./AI_Engineering_Candid_Cag.png" alt="AI Engineering Student Banner with Chatbot Projects" width="100%" />
+</p>
 
 
 <h1 align="center">Hi 👋, I'm Misbah Ghaffar</h1>
