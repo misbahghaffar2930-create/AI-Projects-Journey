@@ -41,9 +41,7 @@ I'm passionate about **Artificial Intelligence** and building intelligent soluti
 <img src="https://github-readme-stats.vercel.app/api?username=misbahghaffar2930-create&show_icons=true&theme=radical" alt="Misbah's GitHub stats" />
 </p>
 
----
-@gmail.com">
----
+
 
 ## 🌐 Connect with Me
 Let's build the future of AI together! You can find me on these platforms:
