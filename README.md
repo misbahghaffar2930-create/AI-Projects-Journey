@@ -9,6 +9,7 @@ mages.search.yahoo.com/search/images;_ylt=AwrFG0654sdp7DgBDdOJzbkF;_ylu=Y29sbwNi
 - 📫 How to reach me **misbahghaffar2930@gmail.com**
 - # Hi there, I'm Misbah Ghaffar! 👋
 
+<img width="1024" height="571" alt="image" src="https://github.com/user-attachments/assets/3fb2a2ca-b773-40f0-8151-da2e37e55dea" />
 
 ### 🎓 AI Engineering Student | 🤖 Aspiring AI Engineer | 🇵🇰 Pakistan
 
