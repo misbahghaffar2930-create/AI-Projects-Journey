@@ -66,35 +66,40 @@ Let's build the future of AI together! You can find me on these platforms:
 <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" alt="GitHub Stats" height="150" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" alt="Top Languages" height="150" />
 </p>
-
----
-## 📁 My Projects
-
-### 🍛 Karachi Darbar Restaurant Chatbot
-> **Tech Stack:** `Python` | `Flask` | `Groq AI`  
-> **Core Function:** Managed Menu, Bookings, and Domain-Specific Guardrails.
-
-## 🤖 Projects
-
-## 📁 My Projects
-
-### 🍛 Karachi Darbar Restaurant Chatbot
-> **Tech Stack:** `Python` | `Flask` | `Groq AI`  
-> **Core Function:** Managed Menu, Bookings, and Domain-Specific Guardrails.
-
 ---
 
-### 👗 StyleZone PK Chatbot
-> **Tech Stack:** `Python` | `Flask` | `Groq AI`  
-> **Core Function:** Automated Inventory Queries and Delivery Tracking for Clothing.
+## 🍛 Project 01: Karachi Darbar - Intelligent Dining Assistant
+> **AI-powered Hospitality Bot** built with **Python**, **Flask**, and **Groq AI**.
+
+A specialized AI assistant engineered for one of Karachi's premier dining spots, focused on real-time menu inquiries and automated table reservations.
+
+### 📋 Restaurant Profile
+| 🏷️ Attribute | 📋 Information |
+| :--- | :--- |
+| **Establishment** | Karachi Darbar |
+| **Location** | Saddar, Karachi |
+| **Service Hours** | 12:00 PM - 12:00 AM |
+| **Booking Line** | 021-1234567 |
+
+### 🍱 Digital Menu & Pricing
+The bot is programmed to provide instant pricing for our signature dishes:
+* **Biryani:** 500 Rs
+* **Nihari:** 400 Rs
+* **Karahi:** 800 Rs
+* **Naan:** 50 Rs
+
+### 🛡️ Operational Guardrails (Strict Rule)
+To ensure professional standards, this bot follows a **Strict Domain Policy**:
+* **Input:** Any query unrelated to the restaurant (e.g., politics, news).
+* **Output Strategy:** Mandatory fallback response: *"I can only help you with Karachi Darbar related queries!"*
+
+### 🛠️ Core AI Engineering Applied
+* **Domain Specific Prompting:** Training the AI to stay within business boundaries.
+* **Information Architecture:** Structuring menu and timing data for quick AI retrieval.
+* **Constraint Implementation:** Implementing safety guardrails for brand consistency.
 
 ---
 
-### 👩‍💻 About Me
-* **Role:** AI Engineering Student 🤖
-* **Main Skill:** Python (Backend & AI Logic) 🐍
-* **Focus:** Building Intelligent Systems and Prompt Engineering.
-- ---
 
 ## 👗 Project 02: StyleZone PK - Fashion Bot
 An e-commerce AI assistant for an online clothing brand based in Lahore, specializing in inventory management and shipping logistics.
