@@ -50,12 +50,7 @@ Let's build the future of AI together! You can find me on these platforms:
   <a href="mailto:YOUR_EMAIL@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
 </p>
 
-### 📈 GitHub Stats
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" alt="GitHub Stats" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical" alt="Top Languages" height="150" />
-</p>
----
+
 
 ## 🍛 Project 01: Karachi Darbar - Intelligent Dining Assistant
 > **AI-powered Hospitality Bot** built with **Python**, **Flask**, and **Groq AI**.
