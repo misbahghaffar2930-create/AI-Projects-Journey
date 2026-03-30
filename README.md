@@ -37,11 +37,6 @@ I'm passionate about **Artificial Intelligence** and building intelligent soluti
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="left">
-<img src="https://github-readme-stats.vercel.app/api?username=misbahghaffar2930-create&show_icons=true&theme=radical" alt="Misbah's GitHub stats" />
-</p>
 
 
 
