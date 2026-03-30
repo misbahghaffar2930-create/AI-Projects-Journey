@@ -1,5 +1,4 @@
 
-<img width="1024" height="169" alt="image" src="https://github.com/user-attachments/assets/37a2a6f1-2d6f-4f20-9777-995cf3ce0682" />
 
 <h1 align="center">Hi 👋, I'm Misbah Ghaffar</h1>
 <h3 align="center">"Aspiring AI Engineer | Building intelligent solutions, one project at a time.</h3>
@@ -9,7 +8,7 @@ mages.search.yahoo.com/search/images;_ylt=AwrFG0654sdp7DgBDdOJzbkF;_ylu=Y29sbwNi
 - 📫 How to reach me **misbahghaffar2930@gmail.com**
 - # Hi there, I'm Misbah Ghaffar! 👋
 
-<img width="1024" height="571" alt="image" src="https://github.com/user-attachments/assets/3fb2a2ca-b773-40f0-8151-da2e37e55dea" />
+
 
 ### 🎓 AI Engineering Student | 🤖 Aspiring AI Engineer | 🇵🇰 Pakistan
 
