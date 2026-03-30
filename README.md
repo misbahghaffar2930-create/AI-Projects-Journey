@@ -15,7 +15,7 @@ mages.search.yahoo.com/search/images;_ylt=AwrFG0654sdp7DgBDdOJzbkF;_ylu=Y29sbwNi
 I'm passionate about **Artificial Intelligence** and building intelligent solutions that automate and solve real-world problems. Currently focusing on Python-driven AI projects and growing my skills every day!
 
 ---
-![Uploading image.png…]()
+
 ### 🚀 About Me
 
 - 🌱 **Currently learning:** AI, Machine Learning, and Deep Learning.
