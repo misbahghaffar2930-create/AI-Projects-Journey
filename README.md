@@ -258,58 +258,60 @@ class Hospital:
         ])
 
 def hospital_chatbot():
-    print("Hospital Management Chatbot chalu ho gaya he!")
+    print("--- Hospital Management Chatbot ---")
     print("Commands: add [naam] [umr] [bimari], admit [id], discharge [id], list, exit")
     hospital = Hospital("City Hospital")
 
     while True:
         msg = input("\nAap: ").strip()
         inp = msg.lower()
+        
         if inp == "exit":
             print("Chatbot: Allah Hafiz!")
             break
+        
         elif inp.startswith("add"):
             parts = msg.split()
             if len(parts) < 4:
-                print("Chatbot: Sahi command hai? Example: add Ali 30 Fever")
+                print("Chatbot: Sahi command likhein. Example: add Ali 30 Fever")
             else:
                 name = parts[1]
                 try:
                     age = int(parts[2])
+                    disease = " ".join(parts[3:])
+                    p = hospital.add_patient(name, age, disease)
+                    print(f"Chatbot: Patient add hogaya - ID: {p.id}, Naam: {p.name}")
                 except ValueError:
-                    print("Chatbot: Age number mein likhein.")
-                    continue
-                disease = " ".join(parts[3:])
-                p = hospital.add_patient(name, age, disease)
-                print(f"Chatbot: Patient add hogaya - ID: {p.id}, Naam: {p.name}")
+                    print("Chatbot: Error! Umr (age) number mein honi chahiye.")
+
         elif inp.startswith("admit"):
             parts = msg.split()
             if len(parts) < 2:
-                print("Chatbot: ID bhi dein. Example: admit 1")
+                print("Chatbot: ID likhein. Example: admit 1")
             else:
                 try:
                     pid = int(parts[1])
+                    print("Chatbot:", hospital.admit_patient(pid))
                 except ValueError:
-                    print("Chatbot: ID number mai likhen.")
-                    continue
-                print("Chatbot:", hospital.admit_patient(pid))
+                    print("Chatbot: ID hamesha number hoti hai.")
+
         elif inp.startswith("discharge"):
             parts = msg.split()
             if len(parts) < 2:
-                print("Chatbot: ID bhi dein. Example: discharge 1")
+                print("Chatbot: ID likhein. Example: discharge 1")
             else:
                 try:
                     pid = int(parts[1])
+                    print("Chatbot:", hospital.discharge_patient(pid))
                 except ValueError:
-                    print("Chatbot: ID number mai likhen.")
-                    continue
-                print("Chatbot:", hospital.discharge_patient(pid))
+                    print("Chatbot: ID hamesha number hoti hai.")
+
         elif inp.startswith("list"):
             print("Chatbot:\n" + hospital.list_patients())
+        
         else:
-            print("Chatbot: Mujhe yeh command samaj nahi aayi. Try: add, admit, discharge, list, exit")
+            print("Chatbot: Mujhe samajh nahi aaya. Try: add, admit, discharge, list, exit")
 
-# hospital_chatbot() # Is line ko uncomment karke chatbot start karein
-
-
-
+# Sabse important line jo code ko start karti hai:
+if __name__ == "__main__":
+    hospital_chatbot()
