@@ -213,5 +213,103 @@ If a user asks about anything other than StyleZone PK clothing or orders:
 * **Framework:** Flask (Python)
 * **Integration:** WhatsApp API for Order Support
 
----
+--- # Hospital Management Chatbot in Python
+
+class Patient:
+    def __init__(self, pid, name, age, disease):
+        self.id = pid
+        self.name = name
+        self.age = age
+        self.disease = disease
+        self.admitted = False
+
+class Hospital:
+    def __init__(self, name):
+        self.name = name
+        self.patients = []
+        self.next_id = 1
+
+    def add_patient(self, name, age, disease):
+        patient = Patient(self.next_id, name, age, disease)
+        self.patients.append(patient)
+        self.next_id += 1
+        return patient
+
+    def admit_patient(self, pid):
+        for p in self.patients:
+            if p.id == pid:
+                p.admitted = True
+                return f"{p.name} ko admit kar liya gaya hai."
+        return "Patient nahi mila."
+
+    def discharge_patient(self, pid):
+        for p in self.patients:
+            if p.id == pid:
+                p.admitted = False
+                return f"{p.name} ko discharge kar diya gaya hai."
+        return "Patient nahi mila."
+
+    def list_patients(self):
+        if not self.patients:
+            return "Koi patient nahi hai."
+        return "\n".join([
+            f"ID: {p.id} | Naam: {p.name} | Umr: {p.age} | Bimari: {p.disease} | Admit: {'Haan' if p.admitted else 'Nahi'}"
+            for p in self.patients
+        ])
+
+def hospital_chatbot():
+    print("Hospital Management Chatbot chalu ho gaya he!")
+    print("Commands: add [naam] [umr] [bimari], admit [id], discharge [id], list, exit")
+    hospital = Hospital("City Hospital")
+
+    while True:
+        msg = input("\nAap: ").strip()
+        inp = msg.lower()
+        if inp == "exit":
+            print("Chatbot: Allah Hafiz!")
+            break
+        elif inp.startswith("add"):
+            parts = msg.split()
+            if len(parts) < 4:
+                print("Chatbot: Sahi command hai? Example: add Ali 30 Fever")
+            else:
+                name = parts[1]
+                try:
+                    age = int(parts[2])
+                except ValueError:
+                    print("Chatbot: Age number mein likhein.")
+                    continue
+                disease = " ".join(parts[3:])
+                p = hospital.add_patient(name, age, disease)
+                print(f"Chatbot: Patient add hogaya - ID: {p.id}, Naam: {p.name}")
+        elif inp.startswith("admit"):
+            parts = msg.split()
+            if len(parts) < 2:
+                print("Chatbot: ID bhi dein. Example: admit 1")
+            else:
+                try:
+                    pid = int(parts[1])
+                except ValueError:
+                    print("Chatbot: ID number mai likhen.")
+                    continue
+                print("Chatbot:", hospital.admit_patient(pid))
+        elif inp.startswith("discharge"):
+            parts = msg.split()
+            if len(parts) < 2:
+                print("Chatbot: ID bhi dein. Example: discharge 1")
+            else:
+                try:
+                    pid = int(parts[1])
+                except ValueError:
+                    print("Chatbot: ID number mai likhen.")
+                    continue
+                print("Chatbot:", hospital.discharge_patient(pid))
+        elif inp.startswith("list"):
+            print("Chatbot:\n" + hospital.list_patients())
+        else:
+            print("Chatbot: Mujhe yeh command samaj nahi aayi. Try: add, admit, discharge, list, exit")
+
+# hospital_chatbot() # Is line ko uncomment karke chatbot start karein
+
+
 
