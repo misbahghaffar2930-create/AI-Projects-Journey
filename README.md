@@ -314,4 +314,29 @@ def hospital_chatbot():
 
 # Sabse important line jo code ko start karti hai:
 if __name__ == "__main__":
-    hospital_chatbot()
+    hospital_chatbot() 
+# 🏥 Hospital AI Assistant - Streamlit Chatbot
+
+A smart, user-friendly **Hospital Management Chatbot** built with Python and Streamlit. This project helps patients get quick answers about hospital timings, location, and fees, while also providing a seamless appointment booking system.
+
+## 🚀 Features
+- **Interactive Chat Interface:** Ask questions about timings, fees, and location in natural language.
+- **Appointment Booking:** A dedicated sidebar form to book appointments with real-time date generation.
+- **Custom UI:** A clean and professional interface using Streamlit's custom CSS capabilities.
+- **Responsive Logic:** Built using Python's session state to maintain chat history.
+
+## 🛠️ Tech Stack
+* **Language:** Python
+* **Framework:** Streamlit
+* **Libraries:** `datetime`, `st.session_state`
+
+## 📸 Project Preview
+![Hospital Chatbot Preview](images/preview.png)
+*(Note: Apne project ka screenshot 'images' folder mein 'preview.png' ke naam se save karein taake yahan nazar aaye)*
+
+## ⚙️ How to Run
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
