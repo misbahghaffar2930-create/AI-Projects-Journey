@@ -230,9 +230,6 @@ A smart, user-friendly **Hospital Management Chatbot** built with Python and Str
 * **Framework:** Streamlit
 * **Libraries:** `datetime`, `st.session_state`
 
-## 📸 Project Preview
-![Hospital Chatbot Preview](images/preview.png)
-*(Note: Apne project ka screenshot 'images' folder mein 'preview.png' ke naam se save karein taake yahan nazar aaye)*
 
 ## ⚙️ How to Run
 To run this project locally, follow these steps:
