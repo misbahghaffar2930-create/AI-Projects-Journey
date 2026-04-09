@@ -218,7 +218,7 @@ If a user asks about anything other than StyleZone PK clothing or orders:
 # 🏥 Hospital AI Assistant - Streamlit Chatbot
 
 A smart, user-friendly **Hospital Management Chatbot** built with Python and Streamlit. This project helps patients get quick answers about hospital timings, location, and fees, while also providing a seamless appointment booking system.
-![App Preview](preview.png)
+![Hospital Chatbot Preview](images/preview.png)
 ## 🚀 Features
 - **Interactive Chat Interface:** Ask questions about timings, fees, and location in natural language.
 - **Appointment Booking:** A dedicated sidebar form to book appointments with real-time date generation.
