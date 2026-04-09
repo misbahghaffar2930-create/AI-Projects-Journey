@@ -1,0 +1,6 @@
+streamlit
+Two things are being used in your code:
+
+streamlit: This is the main library used to build your hospital app and its dashboard. It is necessary to install it.
+
+datetime: This is a Python built-in library. This means it already comes with Python, so there is no need to install it separately, and you also don’t need to include it in the requirements file.
